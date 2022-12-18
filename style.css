@@ -34,6 +34,7 @@
 
 body {
   background-color: var(--Very-light-gray);
+  min-height: 100vh;
 }
 
 main {
