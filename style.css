@@ -34,7 +34,6 @@
 
 body {
   background-color: var(--Very-light-gray);
-  min-height: 100vh;
 }
 
 main {
@@ -113,6 +112,9 @@ main {
 @media (min-width: 750px) {
   body {
     margin-top: 0;
+  }
+  main {
+    margin-bottom: 0;
   }
   .cards {
     flex-direction: row;
