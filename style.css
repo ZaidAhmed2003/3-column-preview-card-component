@@ -20,7 +20,7 @@
 .orange {
   background-color: var(--Bright-orange);
   color: var(--Bright-orange);
-  border-radius: 5px 5px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 .cyan {
   background-color: var(--Dark-cyan);
@@ -29,7 +29,7 @@
 .dark_cyan {
   background-color: var(--Very-dark-cyan);
   color: var(--Very-dark-cyan);
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 8px 8px;
 }
 
 body {
@@ -126,9 +126,9 @@ main {
     padding-bottom: 50px;
   }
   .orange {
-    border-radius: 5px 0 0 5px;
+    border-radius: 8px 0 0 8px;
   }
   .dark_cyan {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 8px 8px 0;
   }
 }
