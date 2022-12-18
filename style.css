@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Transparent-white-p: hsla(0, 0%, 100%, 0.651);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+.orange {
+  background-color: var(--Bright-orange);
+  color: var(--Bright-orange);
+  border-radius: 10px 10px 0 0;
+}
+.cyan {
+  background-color: var(--Dark-cyan);
+  color: var(--Dark-cyan);
+}
+.dark_cyan {
+  background-color: var(--Very-dark-cyan);
+  color: var(--Very-dark-cyan);
+  border-radius: 0 0 10px 10px;
+}
+
+body {
+  background-color: var(--Very-light-gray);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  min-height: 90vh;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.75rem;
+  padding: 50px;
+  max-width: 300px;
+}
+
+.icons img {
+  height: 40px;
+}
+
+.card h2 {
+  color: var(--Very-light-gray);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.card p {
+  color: var(--Transparent-white-p);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.card a {
+  background-color: var(--Very-light-gray);
+  width: 150px;
+  padding: 13px 18px;
+  border: 2px solid var(--Transparent-white);
+  text-align: center;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.card a:hover {
+  background-color: transparent;
+  color: var(--Transparent-white);
+}
+
+.attribution {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  align-items: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 750px) {
+  body {
+    margin-top: 0;
+  }
+  .cards {
+    flex-direction: row;
+  }
+  .card {
+    max-width: 300px;
+  }
+  .card P {
+    padding-bottom: 50px;
+  }
+  .orange {
+    border-radius: 15px 0 0 15px;
+  }
+  .dark_cyan {
+    border-radius: 0 15px 15px 0;
+  }
+}
