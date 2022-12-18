@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-kUqXIL3OBY)
-- Live Site URL: [Live Preview](https://precious-rugelach-c77734.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3column-preview-card-component-ogJFc0ZuHI)
+- Live Site URL: [Live Preview](https://incandescent-gumption-0fa2a2.netlify.app/)
 
 ## My process
 
